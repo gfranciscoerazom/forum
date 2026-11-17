@@ -9,7 +9,7 @@ defineOptions({
             {
                 title: 'Dashboard',
                 href: dashboard(),
-            },
+            }
         ],
     },
 });
@@ -28,7 +28,6 @@ defineProps(['posts']);
                 </span>
             </li>
         </ul>
-
         <Pagination :meta="posts.meta" />
     </div>
 </template>
